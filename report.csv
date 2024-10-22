@@ -1,0 +1,6 @@
+id,name,category,desc,price,quantity,sale
+100,usb-c to usb-c,wire,length: 4ft,6.99,55,N/A
+101,usb-c to usb-c,wire,length: 10ft,9.99,1,N/A
+200,usb-a to usb-c,wire,length: 4ft,6.55,1,3.99
+
+Generated on 2024-10-22,at 02:27:36.478552
