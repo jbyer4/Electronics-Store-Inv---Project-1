@@ -21,7 +21,7 @@ def checkSecurity():
         print("Please create an admin account to manage inventory and add items by calling Admin.register!")
         return False
 if not checkSecurity():
-    print("Admin logged out. Please login by calling Admin.login!")
+    print("Admin logged out. Please login by calling Admin.login!\n")
 
 
 
@@ -233,6 +233,18 @@ class Admin():
         else:
             print("Error: please create admin account first by calling Admin.register!")
 
-# ############################ INPUTS GO BELOW THIS LINE ##################################### #
+print("Welcome! Type exit to close program!\n\n")
 
+while True:
+    userinput = input()
+    if userinput.strip().lower() == "exit":
+        break
+    else:
+        try:
+            exec(userinput)
+        except Exception as e:
+            print(e)
+
+
+# ############################ INPUTS GO BELOW THIS LINE ##################################### #
 
